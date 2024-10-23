@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"
+    />
     <title>Alpha Segurança e Monitoramento | Lagoa Vermelha</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -11,8 +14,9 @@
       crossorigin="anonymous"
     />
     <link rel="icon" href="src/images/Alpha_logo.png" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body class="bg-black">
+  <body>
     <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
       <a
         href="/"
@@ -41,12 +45,12 @@
         </li>
       </ul>
     </header>
-    <div class="container">
+    <div class="container mb-5">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img
-            src="src/images/Excelência.jpg"
-            class="d-block mx-lg-auto img-fluid"
+            src="src/images/Alpha_logo.png"
+            class="d-block mx-lg-auto img-fluid ms-4"
             alt="Excelência"
             width="700"
             height="500"
@@ -54,7 +58,7 @@
           />
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-light lh-1 mb-3">
+          <h1 class="display-5 fw-bold text-danger lh-1 mb-3">
             Alpha Segurança e Monitoramento
           </h1>
           <p class="lead text-light">
@@ -68,7 +72,7 @@
               type="button"
               class="btn btn-outline-secondary btn-lg px-4 text-light"
             >
-              Saiba Mais
+              <a href="#icon-grid">Saiba Mais</a>
             </button>
           </div>
         </div>
@@ -76,7 +80,7 @@
     </div>
 
     <div class="container px-4 py-5" id="icon-grid">
-      <h2 class="pb-2 border-bottom text-light">Grid de serviços</h2>
+      <h2 class="pb-2 border-bottom text-danger mt-5">Serviços</h2>
 
       <div
         class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5 py-lg-5"
@@ -90,9 +94,9 @@
             <use xlink:href="#bootstrap"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 1</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Segurança</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -105,9 +109,9 @@
             <use xlink:href="#cpu-fill"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 2</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Monitoramento</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -120,9 +124,9 @@
             <use xlink:href="#calendar3"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 3</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Portarias</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -135,9 +139,9 @@
             <use xlink:href="#home"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 4</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Segurança Pessoal</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -150,9 +154,9 @@
             <use xlink:href="#speedometer2"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 5</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Rondas</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -165,9 +169,9 @@
             <use xlink:href="#toggles2"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 6</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Segurança Patrimonial</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
@@ -180,30 +184,105 @@
             <use xlink:href="#geo-fill"></use>
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 7</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Escolta</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
         <div class="col d-flex align-items-start">
           <svg
-            class="bi text-body-secondary flex-shrink-0 me-3"
-            width="1.75em"
-            height="1.75em"
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="white"
+            class="bi bi-archive-fill m-3"
+            viewBox="0 0 16 16"
           >
-            <use xlink:href="#tools"></use>
+            <path
+              d="M12.643 15C13.979 15 15 13.845 15 12.5V5H1v7.5C1 13.845 2.021 15 3.357 15zM5.5 7h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1M.8 1a.8.8 0 0 0-.8.8V3a.8.8 0 0 0 .8.8h14.4A.8.8 0 0 0 16 3V1.8a.8.8 0 0 0-.8-.8z"
+            />
           </svg>
           <div>
-            <h3 class="fw-bold mb-2 fs-4 text-light">Serviço 8</h3>
+            <h3 class="fw-bold mb-2 fs-4 text-danger">Serviço 8</h3>
             <p class="text-light">
-              Paragraph of text beneath the heading to explain the heading.
+              Breve texto resumindo o serviço de alta qualidade
             </p>
           </div>
         </div>
       </div>
     </div>
+    <hr />
+    <div class="container px-4 py-5">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Texto Grande para expecificar algum serviço implementado ou
+            investimentos.<br />
+            <span class="text-body-secondary"
+              >Abaixo um pouco de informações.</span
+            >
+          </h2>
+          <p class="lead">
+            informações sobre as melhorias e ou atualizações nos serviços
+            prestados.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <svg
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            width="500"
+            height="500"
+            xmlns="http://www.w3.org/2000/svg"
+            role="img"
+            aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect
+              width="100%"
+              height="100%"
+              fill="var(--bs-secondary-bg)"
+            ></rect>
+            <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
+              500x500
+            </text>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >© 2024 Company, Inc</span
+          >
+        </div>
 
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">Insta</a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">Facebook</a>
+          </li>
+          <li class="ms-3">
+            <a class="text-body-secondary" href="#">WhatsApp</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
