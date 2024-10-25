@@ -1,5 +1,6 @@
 body {
-  background-color: #050303;
+  background-color: rgb(5, 3, 3);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html {
   scroll-behavior: smooth !important;
@@ -8,7 +9,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
-hr {
-  color: white;
+#icon-grid {
+  background-color: rgba(27, 27, 27, 0.8);
 }
