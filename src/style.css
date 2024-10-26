@@ -12,3 +12,12 @@ a {
 #icon-grid {
   background-color: rgba(27, 27, 27, 0.8);
 }
+#black {
+  background-color: black;
+}
+.em-construction {
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
